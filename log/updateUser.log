@@ -1,0 +1,338 @@
+2015-11-05 13:14:40,990 INFO [com.hp.it.util.LdapConnection] - /C:/studyMavenWorkspace/updateGitLabUserInfo/target/classes/java6_cacerts
+2015-11-05 13:15:58,423 INFO [com.hp.it.util.LdapConnection] - /C:/studyMavenWorkspace/updateGitLabUserInfo/target/classes/java6_cacerts
+2015-11-05 13:17:00,305 INFO [com.hp.it.util.LdapConnection] - /C:/studyMavenWorkspace/updateGitLabUserInfo/target/classes/java6_cacerts
+2015-11-05 13:19:25,868 INFO [com.hp.it.updateUser.service.UserService] - start to execute the program!
+2015-11-05 13:19:25,875 INFO [com.hp.it.util.Dbutil] - load my driver successful
+2015-11-05 13:19:25,875 INFO [com.hp.it.util.Dbutil] - get the sql connetcion
+2015-11-05 13:19:27,869 INFO [com.hp.it.updateUser.dao.UserDao] - select id, email from users order by id asc
+2015-11-05 13:19:27,875 INFO [com.hp.it.util.Dbutil] - close the resultSet
+2015-11-05 13:19:27,875 INFO [com.hp.it.updateUser.service.UserService] - execute the ldap query
+2015-11-05 13:19:27,875 INFO [com.hp.it.updateUser.service.UserService] - remove the user which the user's email address endup with '@hpe.com'
+2015-11-05 13:19:27,878 INFO [com.hp.it.util.LdapConnection] - check the certificate file
+2015-11-05 13:19:27,878 INFO [com.hp.it.util.LdapConnection] - /C:/studyMavenWorkspace/updateGitLabUserInfo/target/classes/java6_cacerts
+2015-11-05 13:19:27,879 INFO [com.hp.it.util.LdapConnection] - get the ldap connection!
+2015-11-05 13:20:20,343 INFO [com.hp.it.updateUser.service.UserService] - start to execute the program!
+2015-11-05 13:20:20,350 INFO [com.hp.it.util.Dbutil] - load my driver successful
+2015-11-05 13:20:20,350 INFO [com.hp.it.util.Dbutil] - get the sql connetcion
+2015-11-05 13:20:22,370 INFO [com.hp.it.updateUser.dao.UserDao] - select id, email from users order by id asc
+2015-11-05 13:20:22,379 INFO [com.hp.it.util.Dbutil] - close the resultSet
+2015-11-05 13:20:22,380 INFO [com.hp.it.updateUser.service.UserService] - execute the ldap query
+2015-11-05 13:20:22,380 INFO [com.hp.it.updateUser.service.UserService] - remove the user which the user's email address endup with '@hpe.com'
+2015-11-05 13:20:22,383 INFO [com.hp.it.util.LdapConnection] - check the certificate file
+2015-11-05 13:20:22,384 INFO [com.hp.it.util.LdapConnection] - /C:/studyMavenWorkspace/updateGitLabUserInfo/target/classes/java6_cacerts
+2015-11-05 13:20:22,384 INFO [com.hp.it.util.LdapConnection] - get the ldap connection!
+2015-11-05 13:20:22,820 INFO [com.hp.it.util.LdapConnection] - LdapConnection: ldap connection successful!
+2015-11-05 13:21:20,783 INFO [com.hp.it.util.LdapConnection] - LdapConnection: ldap connection have closed!
+2015-11-05 13:21:20,783 INFO [com.hp.it.updateUser.service.UserService] - remove the user where email address is not changed in ldap!
+2015-11-05 13:21:20,784 INFO [com.hp.it.updateUser.service.UserService] - print users who email adress has changed!
+2015-11-05 13:21:20,785 INFO [com.hp.it.util.Dbutil] - get the sql connetcion
+2015-11-05 13:21:22,654 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'jie.shi@hpe.com',notification_email = 'jie.shi@hpe.com' where id = 2
+2015-11-05 13:21:22,862 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'li-na.du@hpe.com',notification_email = 'li-na.du@hpe.com' where id = 4
+2015-11-05 13:21:23,070 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'feng.zhou4@hpe.com',notification_email = 'feng.zhou4@hpe.com' where id = 5
+2015-11-05 13:21:23,277 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'santhosh.chandan@hpe.com',notification_email = 'santhosh.chandan@hpe.com' where id = 6
+2015-11-05 13:21:23,496 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'xiao-ming.zheng@hpe.com',notification_email = 'xiao-ming.zheng@hpe.com' where id = 7
+2015-11-05 13:21:23,703 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'chun-yang.wang@hpe.com',notification_email = 'chun-yang.wang@hpe.com' where id = 9
+2015-11-05 13:21:23,910 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'yu-juan.zhang@hpe.com',notification_email = 'yu-juan.zhang@hpe.com' where id = 10
+2015-11-05 13:21:24,125 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'jfchen@hpe.com',notification_email = 'jfchen@hpe.com' where id = 11
+2015-11-05 13:21:24,333 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'baoqiang.chen@hpe.com',notification_email = 'baoqiang.chen@hpe.com' where id = 15
+2015-11-05 13:21:24,546 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'slawek.zachcial@hpe.com',notification_email = 'slawek.zachcial@hpe.com' where id = 18
+2015-11-05 13:21:24,755 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'yun.wang2@hpe.com',notification_email = 'yun.wang2@hpe.com' where id = 20
+2015-11-05 13:21:24,963 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'gang.wang2@hpe.com',notification_email = 'gang.wang2@hpe.com' where id = 22
+2015-11-05 13:21:25,172 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'zhong-qiang.ye@hpe.com',notification_email = 'zhong-qiang.ye@hpe.com' where id = 23
+2015-11-05 13:21:25,381 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'zhi-gang.zheng@hpe.com',notification_email = 'zhi-gang.zheng@hpe.com' where id = 26
+2015-11-05 13:21:25,615 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'hui.wang19@hpe.com',notification_email = 'hui.wang19@hpe.com' where id = 28
+2015-11-05 13:21:25,824 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'liang.zhou3@hpe.com',notification_email = 'liang.zhou3@hpe.com' where id = 30
+2015-11-05 13:21:26,033 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'gang.yao@hpe.com',notification_email = 'gang.yao@hpe.com' where id = 33
+2015-11-05 13:21:26,249 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'hao.zhang12@hpe.com',notification_email = 'hao.zhang12@hpe.com' where id = 35
+2015-11-05 13:21:26,459 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'huixin.ma@hpe.com',notification_email = 'huixin.ma@hpe.com' where id = 39
+2015-11-05 13:21:26,671 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'ming-yang.su@hpe.com',notification_email = 'ming-yang.su@hpe.com' where id = 40
+2015-11-05 13:21:26,880 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'wen-gangz2@hpe.com',notification_email = 'wen-gangz2@hpe.com' where id = 41
+2015-11-05 13:21:27,089 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'ya-qin.shen@hpe.com',notification_email = 'ya-qin.shen@hpe.com' where id = 43
+2015-11-05 13:21:27,298 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'sukanya@hpe.com',notification_email = 'sukanya@hpe.com' where id = 44
+2015-11-05 13:21:27,506 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'zhi-yong.zhu@hpe.com',notification_email = 'zhi-yong.zhu@hpe.com' where id = 45
+2015-11-05 13:21:27,714 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'kevin.ingolfsland-external@hpe.com',notification_email = 'kevin.ingolfsland-external@hpe.com' where id = 47
+2015-11-05 13:21:27,932 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'breakfast-english@hpe.com',notification_email = 'breakfast-english@hpe.com' where id = 49
+2015-11-05 13:21:28,144 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'zhang.peng-yu@hpe.com',notification_email = 'zhang.peng-yu@hpe.com' where id = 50
+2015-11-05 13:21:28,375 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'tao.tang@hpe.com',notification_email = 'tao.tang@hpe.com' where id = 51
+2015-11-05 13:21:28,583 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'liul@hpe.com',notification_email = 'liul@hpe.com' where id = 52
+2015-11-05 13:21:28,794 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'kristof.werling@hpe.com',notification_email = 'kristof.werling@hpe.com' where id = 53
+2015-11-05 13:21:29,001 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'mohammad-azlan.yusof@hpe.com',notification_email = 'mohammad-azlan.yusof@hpe.com' where id = 58
+2015-11-05 13:21:29,244 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'yuen-liang.ong@hpe.com',notification_email = 'yuen-liang.ong@hpe.com' where id = 62
+2015-11-05 13:21:29,453 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'yuan-huat.teh@hpe.com',notification_email = 'yuan-huat.teh@hpe.com' where id = 63
+2015-11-05 13:21:29,660 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'ethan.teh@hpe.com',notification_email = 'ethan.teh@hpe.com' where id = 64
+2015-11-05 13:21:29,867 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'fauzaman@hpe.com',notification_email = 'fauzaman@hpe.com' where id = 68
+2015-11-05 13:21:30,075 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'yuan.zhou@hpe.com',notification_email = 'yuan.zhou@hpe.com' where id = 71
+2015-11-05 13:21:30,290 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'abdul-halim.mohd-taufik@hpe.com',notification_email = 'abdul-halim.mohd-taufik@hpe.com' where id = 74
+2015-11-05 13:21:30,498 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'wan-kit.fong@hpe.com',notification_email = 'wan-kit.fong@hpe.com' where id = 76
+2015-11-05 13:21:30,705 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'choon-how.lai@hpe.com',notification_email = 'choon-how.lai@hpe.com' where id = 78
+2015-11-05 13:21:30,916 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'izuddin.ghazali@hpe.com',notification_email = 'izuddin.ghazali@hpe.com' where id = 79
+2015-11-05 13:21:31,123 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'fazeka-azura.binti-sh-jaffar@hpe.com',notification_email = 'fazeka-azura.binti-sh-jaffar@hpe.com' where id = 81
+2015-11-05 13:21:31,330 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'chin-kai.eau@hpe.com',notification_email = 'chin-kai.eau@hpe.com' where id = 82
+2015-11-05 13:21:31,538 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'yung-kit.chak@hpe.com',notification_email = 'yung-kit.chak@hpe.com' where id = 85
+2015-11-05 13:21:31,759 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'chee-seng.koo@hpe.com',notification_email = 'chee-seng.koo@hpe.com' where id = 89
+2015-11-05 13:21:31,966 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'jiajia.chu@hpe.com',notification_email = 'jiajia.chu@hpe.com' where id = 90
+2015-11-05 13:21:32,174 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'ning.liu4@hpe.com',notification_email = 'ning.liu4@hpe.com' where id = 91
+2015-11-05 13:21:32,383 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'fariza.halim@hpe.com',notification_email = 'fariza.halim@hpe.com' where id = 94
+2015-11-05 13:21:32,590 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'jyu@hpe.com',notification_email = 'jyu@hpe.com' where id = 97
+2015-11-05 13:21:32,857 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'chiow-khim.lim@hpe.com',notification_email = 'chiow-khim.lim@hpe.com' where id = 98
+2015-11-05 13:21:33,065 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'pan.gao@hpe.com',notification_email = 'pan.gao@hpe.com' where id = 99
+2015-11-05 13:21:33,272 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'nur-alia.baharudin@hpe.com',notification_email = 'nur-alia.baharudin@hpe.com' where id = 101
+2015-11-05 13:21:33,482 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'ting.liu7@hpe.com',notification_email = 'ting.liu7@hpe.com' where id = 105
+2015-11-05 13:21:33,695 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'craig.hook@hpe.com',notification_email = 'craig.hook@hpe.com' where id = 107
+2015-11-05 13:21:33,902 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'donal.rafferty@hpe.com',notification_email = 'donal.rafferty@hpe.com' where id = 108
+2015-11-05 13:21:34,109 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'jesse.davis@hpe.com',notification_email = 'jesse.davis@hpe.com' where id = 109
+2015-11-05 13:21:34,321 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'ralph.dou.lowden@hpe.com',notification_email = 'ralph.dou.lowden@hpe.com' where id = 112
+2015-11-05 13:21:34,529 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'kok-khuen.yong@hpe.com',notification_email = 'kok-khuen.yong@hpe.com' where id = 113
+2015-11-05 13:21:34,736 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'terence.coughlan@hpe.com',notification_email = 'terence.coughlan@hpe.com' where id = 114
+2015-11-05 13:21:34,944 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'jeff.gray@hpe.com',notification_email = 'jeff.gray@hpe.com' where id = 115
+2015-11-05 13:21:35,151 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'marimuthu.ganesan@hpe.com',notification_email = 'marimuthu.ganesan@hpe.com' where id = 117
+2015-11-05 13:21:35,359 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'cesar.garcia-retama@hpe.com',notification_email = 'cesar.garcia-retama@hpe.com' where id = 118
+2015-11-05 13:21:35,582 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'vincent.planat@hpe.com',notification_email = 'vincent.planat@hpe.com' where id = 119
+2015-11-05 13:21:35,790 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'mark.mcnelis@hpe.com',notification_email = 'mark.mcnelis@hpe.com' where id = 120
+2015-11-05 13:21:35,997 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'jian.zhang3@hpe.com',notification_email = 'jian.zhang3@hpe.com' where id = 121
+2015-11-05 13:21:36,206 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'atash.das@hpe.com',notification_email = 'atash.das@hpe.com' where id = 125
+2015-11-05 13:21:36,419 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'bob.w.lyfareff@hpe.com',notification_email = 'bob.w.lyfareff@hpe.com' where id = 126
+2015-11-05 13:21:36,627 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'xiang.wang3@hpe.com',notification_email = 'xiang.wang3@hpe.com' where id = 129
+2015-11-05 13:21:36,834 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'zhaoyang.zhang@hpe.com',notification_email = 'zhaoyang.zhang@hpe.com' where id = 131
+2015-11-05 13:21:37,042 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'zhan-ru.sun@hpe.com',notification_email = 'zhan-ru.sun@hpe.com' where id = 133
+2015-11-05 13:21:37,273 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'arquimedes.smith@hpe.com',notification_email = 'arquimedes.smith@hpe.com' where id = 135
+2015-11-05 13:21:37,481 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'antonio.zornoza@hpe.com',notification_email = 'antonio.zornoza@hpe.com' where id = 136
+2015-11-05 13:21:37,689 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'mingxin.he@hpe.com',notification_email = 'mingxin.he@hpe.com' where id = 137
+2015-11-05 13:21:37,897 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'fu.chen@hpe.com',notification_email = 'fu.chen@hpe.com' where id = 139
+2015-11-05 13:21:38,104 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'finbar.leahy@hpe.com',notification_email = 'finbar.leahy@hpe.com' where id = 141
+2015-11-05 13:21:38,312 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'declan.mc-donnell@hpe.com',notification_email = 'declan.mc-donnell@hpe.com' where id = 143
+2015-11-05 13:21:38,519 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'oleg.rakcheev@hpe.com',notification_email = 'oleg.rakcheev@hpe.com' where id = 144
+2015-11-05 13:21:38,730 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'mark.flanagan@hpe.com',notification_email = 'mark.flanagan@hpe.com' where id = 146
+2015-11-05 13:21:38,938 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'steven.mullen@hpe.com',notification_email = 'steven.mullen@hpe.com' where id = 147
+2015-11-05 13:21:39,163 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'hao.zhang2@hpe.com',notification_email = 'hao.zhang2@hpe.com' where id = 152
+2015-11-05 13:21:39,371 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'wen-qin.song@hpe.com',notification_email = 'wen-qin.song@hpe.com' where id = 155
+2015-11-05 13:21:39,579 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'xi.shen2@hpe.com',notification_email = 'xi.shen2@hpe.com' where id = 165
+2015-11-05 13:21:39,787 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'peng-fong.er@hpe.com',notification_email = 'peng-fong.er@hpe.com' where id = 173
+2015-11-05 13:21:39,995 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'czhong@hpe.com',notification_email = 'czhong@hpe.com' where id = 174
+2015-11-05 13:21:40,230 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'morris.lee@hpe.com',notification_email = 'morris.lee@hpe.com' where id = 175
+2015-11-05 13:21:40,441 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'nazmil.norddin@hpe.com',notification_email = 'nazmil.norddin@hpe.com' where id = 178
+2015-11-05 13:21:40,648 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'yiren.ding@hpe.com',notification_email = 'yiren.ding@hpe.com' where id = 179
+2015-11-05 13:21:40,856 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'daniel.eagle@hpe.com',notification_email = 'daniel.eagle@hpe.com' where id = 180
+2015-11-05 13:21:41,071 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'leah.towns@hpe.com',notification_email = 'leah.towns@hpe.com' where id = 181
+2015-11-05 13:21:41,279 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'kai.yu@hpe.com',notification_email = 'kai.yu@hpe.com' where id = 182
+2015-11-05 13:21:41,487 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'stan.leong@hpe.com',notification_email = 'stan.leong@hpe.com' where id = 184
+2015-11-05 13:21:41,696 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'ya-wei.luo@hpe.com',notification_email = 'ya-wei.luo@hpe.com' where id = 186
+2015-11-05 13:21:41,903 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'mike.sun@hpe.com',notification_email = 'mike.sun@hpe.com' where id = 187
+2015-11-05 13:21:42,112 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'batiwang@hpe.com',notification_email = 'batiwang@hpe.com' where id = 188
+2015-11-05 13:21:42,321 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'chang-hua.huang@hpe.com',notification_email = 'chang-hua.huang@hpe.com' where id = 190
+2015-11-05 13:21:42,535 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'xiao-qiang.zhou@hpe.com',notification_email = 'xiao-qiang.zhou@hpe.com' where id = 191
+2015-11-05 13:21:42,749 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'kevin.kai-man@hpe.com',notification_email = 'kevin.kai-man@hpe.com' where id = 193
+2015-11-05 13:21:42,966 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'lil@hpe.com',notification_email = 'lil@hpe.com' where id = 196
+2015-11-05 13:21:43,174 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'gilla@hpe.com',notification_email = 'gilla@hpe.com' where id = 197
+2015-11-05 13:21:43,388 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'kang.sun@hpe.com',notification_email = 'kang.sun@hpe.com' where id = 199
+2015-11-05 13:21:43,595 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'disabled-bing-xin.xia@hpe.com',notification_email = 'disabled-bing-xin.xia@hpe.com' where id = 200
+2015-11-05 13:21:43,815 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'tobias.zeng@hpe.com',notification_email = 'tobias.zeng@hpe.com' where id = 202
+2015-11-05 13:21:44,023 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'zhend@hpe.com',notification_email = 'zhend@hpe.com' where id = 203
+2015-11-05 13:21:44,230 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'recruit.cq.portal@hpe.com',notification_email = 'recruit.cq.portal@hpe.com' where id = 204
+2015-11-05 13:21:44,437 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'chunqi.lu@hpe.com',notification_email = 'chunqi.lu@hpe.com' where id = 206
+2015-11-05 13:21:44,645 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'raquel.chavez@hpe.com',notification_email = 'raquel.chavez@hpe.com' where id = 208
+2015-11-05 13:21:44,858 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'arun.sampath@hpe.com',notification_email = 'arun.sampath@hpe.com' where id = 209
+2015-11-05 13:21:45,065 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'bob.dobson@hpe.com',notification_email = 'bob.dobson@hpe.com' where id = 212
+2015-11-05 13:21:45,274 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'etienne.canaud@hpe.com',notification_email = 'etienne.canaud@hpe.com' where id = 213
+2015-11-05 13:21:45,482 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'moritz.rupp@hpe.com',notification_email = 'moritz.rupp@hpe.com' where id = 215
+2015-11-05 13:21:45,690 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'ke-ke.qi@hpe.com',notification_email = 'ke-ke.qi@hpe.com' where id = 216
+2015-11-05 13:21:45,897 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'wei.xiao@hpe.com',notification_email = 'wei.xiao@hpe.com' where id = 217
+2015-11-05 13:21:46,105 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'marcelo.barros@hpe.com',notification_email = 'marcelo.barros@hpe.com' where id = 218
+2015-11-05 13:21:46,313 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'allen.lebo@hpe.com',notification_email = 'allen.lebo@hpe.com' where id = 219
+2015-11-05 13:21:46,520 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'frank.startsman@hpe.com',notification_email = 'frank.startsman@hpe.com' where id = 220
+2015-11-05 13:21:46,736 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'mark.shroyer@hpe.com',notification_email = 'mark.shroyer@hpe.com' where id = 223
+2015-11-05 13:21:46,943 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'dbartsch@hpe.com',notification_email = 'dbartsch@hpe.com' where id = 224
+2015-11-05 13:21:47,151 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'oldrich.kepka@hpe.com',notification_email = 'oldrich.kepka@hpe.com' where id = 227
+2015-11-05 13:21:47,364 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'pavel.sarek@hpe.com',notification_email = 'pavel.sarek@hpe.com' where id = 228
+2015-11-05 13:21:47,571 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'eduard.vrastil@hpe.com',notification_email = 'eduard.vrastil@hpe.com' where id = 229
+2015-11-05 13:21:47,779 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'kagaka@hpe.com',notification_email = 'kagaka@hpe.com' where id = 230
+2015-11-05 13:21:47,986 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'roman.masek@hpe.com',notification_email = 'roman.masek@hpe.com' where id = 231
+2015-11-05 13:21:48,193 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'stanislav.minar@hpe.com',notification_email = 'stanislav.minar@hpe.com' where id = 232
+2015-11-05 13:21:48,406 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'michal.kosek@hpe.com',notification_email = 'michal.kosek@hpe.com' where id = 233
+2015-11-05 13:21:48,614 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'jiri.muller@hpe.com',notification_email = 'jiri.muller@hpe.com' where id = 235
+2015-11-05 13:21:48,833 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'cestmir.ruzicka@hpe.com',notification_email = 'cestmir.ruzicka@hpe.com' where id = 236
+2015-11-05 13:21:49,041 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 't-b@hpe.com',notification_email = 't-b@hpe.com' where id = 237
+2015-11-05 13:21:49,249 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'f-t@hpe.com',notification_email = 'f-t@hpe.com' where id = 238
+2015-11-05 13:21:49,456 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'disabled-r.rajeshprabhu@hpe.com',notification_email = 'disabled-r.rajeshprabhu@hpe.com' where id = 239
+2015-11-05 13:21:49,666 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'santosh.srinath@hpe.com',notification_email = 'santosh.srinath@hpe.com' where id = 240
+2015-11-05 13:21:49,876 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'kaushal.mehta@hpe.com',notification_email = 'kaushal.mehta@hpe.com' where id = 246
+2015-11-05 13:21:50,083 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'jason.b.miller@hpe.com',notification_email = 'jason.b.miller@hpe.com' where id = 248
+2015-11-05 13:21:50,301 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'kenny.ano.inthirath@hpe.com',notification_email = 'kenny.ano.inthirath@hpe.com' where id = 249
+2015-11-05 13:21:50,510 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'sudarshan.ghate@hpe.com',notification_email = 'sudarshan.ghate@hpe.com' where id = 250
+2015-11-05 13:21:50,717 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'kevin.lane2@hpe.com',notification_email = 'kevin.lane2@hpe.com' where id = 252
+2015-11-05 13:21:50,925 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'robert.kaiser@hpe.com',notification_email = 'robert.kaiser@hpe.com' where id = 253
+2015-11-05 13:21:51,139 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'hernan.gambaro@hpe.com',notification_email = 'hernan.gambaro@hpe.com' where id = 254
+2015-11-05 13:21:51,346 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'ian.jespersen@hpe.com',notification_email = 'ian.jespersen@hpe.com' where id = 256
+2015-11-05 13:21:51,554 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'f.shad@hpe.com',notification_email = 'f.shad@hpe.com' where id = 259
+2015-11-05 13:21:51,761 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'marc.galloway@hpe.com',notification_email = 'marc.galloway@hpe.com' where id = 260
+2015-11-05 13:21:51,977 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'geff.garnhart@hpe.com',notification_email = 'geff.garnhart@hpe.com' where id = 261
+2015-11-05 13:21:52,185 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'miguel.tsuboyama@hpe.com',notification_email = 'miguel.tsuboyama@hpe.com' where id = 262
+2015-11-05 13:21:52,393 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'klara.kaderabkova@hpe.com',notification_email = 'klara.kaderabkova@hpe.com' where id = 263
+2015-11-05 13:21:52,600 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'itbot@hpe.com',notification_email = 'itbot@hpe.com' where id = 264
+2015-11-05 13:21:52,808 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'katsuhiro.konishi@hpe.com',notification_email = 'katsuhiro.konishi@hpe.com' where id = 265
+2015-11-05 13:21:53,015 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'guili.he@hpe.com',notification_email = 'guili.he@hpe.com' where id = 266
+2015-11-05 13:21:53,223 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'keith.sharp@hpe.com',notification_email = 'keith.sharp@hpe.com' where id = 267
+2015-11-05 13:21:53,430 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'dmitry.silin@hpe.com',notification_email = 'dmitry.silin@hpe.com' where id = 268
+2015-11-05 13:21:53,647 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'valerio.martini@hpe.com',notification_email = 'valerio.martini@hpe.com' where id = 269
+2015-11-05 13:21:53,854 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'michal.mlaticek@hpe.com',notification_email = 'michal.mlaticek@hpe.com' where id = 271
+2015-11-05 13:21:54,061 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'michael.andersin@hpe.com',notification_email = 'michael.andersin@hpe.com' where id = 272
+2015-11-05 13:21:54,269 INFO [com.hp.it.updateUser.dao.UserDao] - update users set email = 'patrick.deloulay@hpe.com',notification_email = 'patrick.deloulay@hpe.com' where id = 273
+2015-11-05 13:21:54,269 INFO [com.hp.it.util.Dbutil] - close the statement
+2015-11-05 13:21:54,269 INFO [com.hp.it.util.Dbutil] - close the connection
+2015-11-05 13:21:54,270 INFO [com.hp.it.updateUser.service.UserService] - update user successful
+2015-11-05 13:21:54,270 INFO [com.hp.it.util.Dbutil] - get the sql connetcion
+2015-11-05 13:21:56,127 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=jie.shi@hpe.com,ou=People,o=hp.com' where user_id = 2
+2015-11-05 13:21:56,337 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=li-na.du@hpe.com,ou=People,o=hp.com' where user_id = 4
+2015-11-05 13:21:56,553 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=feng.zhou4@hpe.com,ou=People,o=hp.com' where user_id = 5
+2015-11-05 13:21:56,767 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=santhosh.chandan@hpe.com,ou=People,o=hp.com' where user_id = 6
+2015-11-05 13:21:56,977 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=xiao-ming.zheng@hpe.com,ou=People,o=hp.com' where user_id = 7
+2015-11-05 13:21:57,185 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=chun-yang.wang@hpe.com,ou=People,o=hp.com' where user_id = 9
+2015-11-05 13:21:57,392 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=yu-juan.zhang@hpe.com,ou=People,o=hp.com' where user_id = 10
+2015-11-05 13:21:57,599 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=jfchen@hpe.com,ou=People,o=hp.com' where user_id = 11
+2015-11-05 13:21:57,808 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=baoqiang.chen@hpe.com,ou=People,o=hp.com' where user_id = 15
+2015-11-05 13:21:58,021 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=slawek.zachcial@hpe.com,ou=People,o=hp.com' where user_id = 18
+2015-11-05 13:21:58,230 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=yun.wang2@hpe.com,ou=People,o=hp.com' where user_id = 20
+2015-11-05 13:21:58,438 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=gang.wang2@hpe.com,ou=People,o=hp.com' where user_id = 22
+2015-11-05 13:21:58,646 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=zhong-qiang.ye@hpe.com,ou=People,o=hp.com' where user_id = 23
+2015-11-05 13:21:58,854 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=zhi-gang.zheng@hpe.com,ou=People,o=hp.com' where user_id = 26
+2015-11-05 13:21:59,080 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=hui.wang19@hpe.com,ou=People,o=hp.com' where user_id = 28
+2015-11-05 13:21:59,289 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=liang.zhou3@hpe.com,ou=People,o=hp.com' where user_id = 30
+2015-11-05 13:21:59,497 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=gang.yao@hpe.com,ou=People,o=hp.com' where user_id = 33
+2015-11-05 13:21:59,706 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=hao.zhang12@hpe.com,ou=People,o=hp.com' where user_id = 35
+2015-11-05 13:21:59,920 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=huixin.ma@hpe.com,ou=People,o=hp.com' where user_id = 39
+2015-11-05 13:22:00,128 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=ming-yang.su@hpe.com,ou=People,o=hp.com' where user_id = 40
+2015-11-05 13:22:00,335 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=wen-gangz2@hpe.com,ou=People,o=hp.com' where user_id = 41
+2015-11-05 13:22:00,546 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=ya-qin.shen@hpe.com,ou=People,o=hp.com' where user_id = 43
+2015-11-05 13:22:00,754 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=sukanya@hpe.com,ou=People,o=hp.com' where user_id = 44
+2015-11-05 13:22:00,962 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=zhi-yong.zhu@hpe.com,ou=People,o=hp.com' where user_id = 45
+2015-11-05 13:22:01,171 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=kevin.ingolfsland-external@hpe.com,ou=People,o=hp.com' where user_id = 47
+2015-11-05 13:22:01,378 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=breakfast-english@hpe.com,ou=People,o=hp.com' where user_id = 49
+2015-11-05 13:22:01,586 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=zhang.peng-yu@hpe.com,ou=People,o=hp.com' where user_id = 50
+2015-11-05 13:22:01,793 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=tao.tang@hpe.com,ou=People,o=hp.com' where user_id = 51
+2015-11-05 13:22:02,000 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=liul@hpe.com,ou=People,o=hp.com' where user_id = 52
+2015-11-05 13:22:02,208 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=kristof.werling@hpe.com,ou=People,o=hp.com' where user_id = 53
+2015-11-05 13:22:02,415 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=mohammad-azlan.yusof@hpe.com,ou=People,o=hp.com' where user_id = 58
+2015-11-05 13:22:02,623 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=yuen-liang.ong@hpe.com,ou=People,o=hp.com' where user_id = 62
+2015-11-05 13:22:02,831 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=yuan-huat.teh@hpe.com,ou=People,o=hp.com' where user_id = 63
+2015-11-05 13:22:03,043 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=ethan.teh@hpe.com,ou=People,o=hp.com' where user_id = 64
+2015-11-05 13:22:03,251 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=fauzaman@hpe.com,ou=People,o=hp.com' where user_id = 68
+2015-11-05 13:22:03,459 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=yuan.zhou@hpe.com,ou=People,o=hp.com' where user_id = 71
+2015-11-05 13:22:03,666 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=abdul-halim.mohd-taufik@hpe.com,ou=People,o=hp.com' where user_id = 74
+2015-11-05 13:22:03,874 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=wan-kit.fong@hpe.com,ou=People,o=hp.com' where user_id = 76
+2015-11-05 13:22:04,082 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=choon-how.lai@hpe.com,ou=People,o=hp.com' where user_id = 78
+2015-11-05 13:22:04,289 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=izuddin.ghazali@hpe.com,ou=People,o=hp.com' where user_id = 79
+2015-11-05 13:22:04,496 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=fazeka-azura.binti-sh-jaffar@hpe.com,ou=People,o=hp.com' where user_id = 81
+2015-11-05 13:22:04,705 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=chin-kai.eau@hpe.com,ou=People,o=hp.com' where user_id = 82
+2015-11-05 13:22:04,912 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=yung-kit.chak@hpe.com,ou=People,o=hp.com' where user_id = 85
+2015-11-05 13:22:05,119 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=chee-seng.koo@hpe.com,ou=People,o=hp.com' where user_id = 89
+2015-11-05 13:22:05,339 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=jiajia.chu@hpe.com,ou=People,o=hp.com' where user_id = 90
+2015-11-05 13:22:05,547 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=ning.liu4@hpe.com,ou=People,o=hp.com' where user_id = 91
+2015-11-05 13:22:05,754 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=fariza.halim@hpe.com,ou=People,o=hp.com' where user_id = 94
+2015-11-05 13:22:05,961 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=jyu@hpe.com,ou=People,o=hp.com' where user_id = 97
+2015-11-05 13:22:06,168 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=chiow-khim.lim@hpe.com,ou=People,o=hp.com' where user_id = 98
+2015-11-05 13:22:06,386 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=pan.gao@hpe.com,ou=People,o=hp.com' where user_id = 99
+2015-11-05 13:22:06,595 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=nur-alia.baharudin@hpe.com,ou=People,o=hp.com' where user_id = 101
+2015-11-05 13:22:06,801 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=ting.liu7@hpe.com,ou=People,o=hp.com' where user_id = 105
+2015-11-05 13:22:07,009 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=craig.hook@hpe.com,ou=People,o=hp.com' where user_id = 107
+2015-11-05 13:22:07,217 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=donal.rafferty@hpe.com,ou=People,o=hp.com' where user_id = 108
+2015-11-05 13:22:07,431 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=jesse.davis@hpe.com,ou=People,o=hp.com' where user_id = 109
+2015-11-05 13:22:07,638 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=ralph.dou.lowden@hpe.com,ou=People,o=hp.com' where user_id = 112
+2015-11-05 13:22:07,852 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=kok-khuen.yong@hpe.com,ou=People,o=hp.com' where user_id = 113
+2015-11-05 13:22:08,060 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=terence.coughlan@hpe.com,ou=People,o=hp.com' where user_id = 114
+2015-11-05 13:22:08,270 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=jeff.gray@hpe.com,ou=People,o=hp.com' where user_id = 115
+2015-11-05 13:22:08,481 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=marimuthu.ganesan@hpe.com,ou=People,o=hp.com' where user_id = 117
+2015-11-05 13:22:08,691 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=cesar.garcia-retama@hpe.com,ou=People,o=hp.com' where user_id = 118
+2015-11-05 13:22:08,902 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=vincent.planat@hpe.com,ou=People,o=hp.com' where user_id = 119
+2015-11-05 13:22:09,109 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=mark.mcnelis@hpe.com,ou=People,o=hp.com' where user_id = 120
+2015-11-05 13:22:09,320 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=jian.zhang3@hpe.com,ou=People,o=hp.com' where user_id = 121
+2015-11-05 13:22:09,534 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=atash.das@hpe.com,ou=People,o=hp.com' where user_id = 125
+2015-11-05 13:22:09,742 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=bob.w.lyfareff@hpe.com,ou=People,o=hp.com' where user_id = 126
+2015-11-05 13:22:09,949 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=xiang.wang3@hpe.com,ou=People,o=hp.com' where user_id = 129
+2015-11-05 13:22:10,159 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=zhaoyang.zhang@hpe.com,ou=People,o=hp.com' where user_id = 131
+2015-11-05 13:22:10,368 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=zhan-ru.sun@hpe.com,ou=People,o=hp.com' where user_id = 133
+2015-11-05 13:22:10,576 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=arquimedes.smith@hpe.com,ou=People,o=hp.com' where user_id = 135
+2015-11-05 13:22:10,785 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=antonio.zornoza@hpe.com,ou=People,o=hp.com' where user_id = 136
+2015-11-05 13:22:10,993 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=mingxin.he@hpe.com,ou=People,o=hp.com' where user_id = 137
+2015-11-05 13:22:11,200 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=fu.chen@hpe.com,ou=People,o=hp.com' where user_id = 139
+2015-11-05 13:22:11,408 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=finbar.leahy@hpe.com,ou=People,o=hp.com' where user_id = 141
+2015-11-05 13:22:11,616 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=declan.mc-donnell@hpe.com,ou=People,o=hp.com' where user_id = 143
+2015-11-05 13:22:11,823 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=oleg.rakcheev@hpe.com,ou=People,o=hp.com' where user_id = 144
+2015-11-05 13:22:12,031 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=mark.flanagan@hpe.com,ou=People,o=hp.com' where user_id = 146
+2015-11-05 13:22:12,248 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=steven.mullen@hpe.com,ou=People,o=hp.com' where user_id = 147
+2015-11-05 13:22:12,455 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=hao.zhang2@hpe.com,ou=People,o=hp.com' where user_id = 152
+2015-11-05 13:22:12,672 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=wen-qin.song@hpe.com,ou=People,o=hp.com' where user_id = 155
+2015-11-05 13:22:12,880 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=xi.shen2@hpe.com,ou=People,o=hp.com' where user_id = 165
+2015-11-05 13:22:13,087 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=peng-fong.er@hpe.com,ou=People,o=hp.com' where user_id = 173
+2015-11-05 13:22:13,294 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=czhong@hpe.com,ou=People,o=hp.com' where user_id = 174
+2015-11-05 13:22:13,501 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=morris.lee@hpe.com,ou=People,o=hp.com' where user_id = 175
+2015-11-05 13:22:13,717 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=nazmil.norddin@hpe.com,ou=People,o=hp.com' where user_id = 178
+2015-11-05 13:22:13,924 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=yiren.ding@hpe.com,ou=People,o=hp.com' where user_id = 179
+2015-11-05 13:22:14,131 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=daniel.eagle@hpe.com,ou=People,o=hp.com' where user_id = 180
+2015-11-05 13:22:14,339 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=leah.towns@hpe.com,ou=People,o=hp.com' where user_id = 181
+2015-11-05 13:22:14,548 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=kai.yu@hpe.com,ou=People,o=hp.com' where user_id = 182
+2015-11-05 13:22:14,754 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=stan.leong@hpe.com,ou=People,o=hp.com' where user_id = 184
+2015-11-05 13:22:14,967 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=ya-wei.luo@hpe.com,ou=People,o=hp.com' where user_id = 186
+2015-11-05 13:22:15,179 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=mike.sun@hpe.com,ou=People,o=hp.com' where user_id = 187
+2015-11-05 13:22:15,387 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=batiwang@hpe.com,ou=People,o=hp.com' where user_id = 188
+2015-11-05 13:22:15,599 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=chang-hua.huang@hpe.com,ou=People,o=hp.com' where user_id = 190
+2015-11-05 13:22:15,808 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=xiao-qiang.zhou@hpe.com,ou=People,o=hp.com' where user_id = 191
+2015-11-05 13:22:16,015 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=kevin.kai-man@hpe.com,ou=People,o=hp.com' where user_id = 193
+2015-11-05 13:22:16,223 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=lil@hpe.com,ou=People,o=hp.com' where user_id = 196
+2015-11-05 13:22:16,430 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=gilla@hpe.com,ou=People,o=hp.com' where user_id = 197
+2015-11-05 13:22:16,637 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=kang.sun@hpe.com,ou=People,o=hp.com' where user_id = 199
+2015-11-05 13:22:16,852 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=disabled-bing-xin.xia@hpe.com,ou=People,o=hp.com' where user_id = 200
+2015-11-05 13:22:17,066 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=tobias.zeng@hpe.com,ou=People,o=hp.com' where user_id = 202
+2015-11-05 13:22:17,273 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=zhend@hpe.com,ou=People,o=hp.com' where user_id = 203
+2015-11-05 13:22:17,482 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=recruit.cq.portal@hpe.com,ou=People,o=hp.com' where user_id = 204
+2015-11-05 13:22:17,706 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=chunqi.lu@hpe.com,ou=People,o=hp.com' where user_id = 206
+2015-11-05 13:22:17,917 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=raquel.chavez@hpe.com,ou=People,o=hp.com' where user_id = 208
+2015-11-05 13:22:18,124 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=arun.sampath@hpe.com,ou=People,o=hp.com' where user_id = 209
+2015-11-05 13:22:18,331 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=bob.dobson@hpe.com,ou=People,o=hp.com' where user_id = 212
+2015-11-05 13:22:18,539 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=etienne.canaud@hpe.com,ou=People,o=hp.com' where user_id = 213
+2015-11-05 13:22:18,746 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=moritz.rupp@hpe.com,ou=People,o=hp.com' where user_id = 215
+2015-11-05 13:22:18,953 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=ke-ke.qi@hpe.com,ou=People,o=hp.com' where user_id = 216
+2015-11-05 13:22:19,160 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=wei.xiao@hpe.com,ou=People,o=hp.com' where user_id = 217
+2015-11-05 13:22:19,367 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=marcelo.barros@hpe.com,ou=People,o=hp.com' where user_id = 218
+2015-11-05 13:22:19,575 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=allen.lebo@hpe.com,ou=People,o=hp.com' where user_id = 219
+2015-11-05 13:22:19,782 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=frank.startsman@hpe.com,ou=People,o=hp.com' where user_id = 220
+2015-11-05 13:22:19,990 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=mark.shroyer@hpe.com,ou=People,o=hp.com' where user_id = 223
+2015-11-05 13:22:20,197 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=dbartsch@hpe.com,ou=People,o=hp.com' where user_id = 224
+2015-11-05 13:22:20,405 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=oldrich.kepka@hpe.com,ou=People,o=hp.com' where user_id = 227
+2015-11-05 13:22:20,612 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=pavel.sarek@hpe.com,ou=People,o=hp.com' where user_id = 228
+2015-11-05 13:22:20,823 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=eduard.vrastil@hpe.com,ou=People,o=hp.com' where user_id = 229
+2015-11-05 13:22:21,030 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=kagaka@hpe.com,ou=People,o=hp.com' where user_id = 230
+2015-11-05 13:22:21,237 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=roman.masek@hpe.com,ou=People,o=hp.com' where user_id = 231
+2015-11-05 13:22:21,444 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=stanislav.minar@hpe.com,ou=People,o=hp.com' where user_id = 232
+2015-11-05 13:22:21,651 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=michal.kosek@hpe.com,ou=People,o=hp.com' where user_id = 233
+2015-11-05 13:22:21,858 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=jiri.muller@hpe.com,ou=People,o=hp.com' where user_id = 235
+2015-11-05 13:22:22,065 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=cestmir.ruzicka@hpe.com,ou=People,o=hp.com' where user_id = 236
+2015-11-05 13:22:22,273 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=t-b@hpe.com,ou=People,o=hp.com' where user_id = 237
+2015-11-05 13:22:22,489 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=f-t@hpe.com,ou=People,o=hp.com' where user_id = 238
+2015-11-05 13:22:22,696 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=disabled-r.rajeshprabhu@hpe.com,ou=People,o=hp.com' where user_id = 239
+2015-11-05 13:22:22,904 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=santosh.srinath@hpe.com,ou=People,o=hp.com' where user_id = 240
+2015-11-05 13:22:23,112 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=kaushal.mehta@hpe.com,ou=People,o=hp.com' where user_id = 246
+2015-11-05 13:22:23,320 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=jason.b.miller@hpe.com,ou=People,o=hp.com' where user_id = 248
+2015-11-05 13:22:23,530 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=kenny.ano.inthirath@hpe.com,ou=People,o=hp.com' where user_id = 249
+2015-11-05 13:22:23,737 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=sudarshan.ghate@hpe.com,ou=People,o=hp.com' where user_id = 250
+2015-11-05 13:22:23,944 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=kevin.lane2@hpe.com,ou=People,o=hp.com' where user_id = 252
+2015-11-05 13:22:24,151 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=robert.kaiser@hpe.com,ou=People,o=hp.com' where user_id = 253
+2015-11-05 13:22:24,358 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=hernan.gambaro@hpe.com,ou=People,o=hp.com' where user_id = 254
+2015-11-05 13:22:24,566 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=ian.jespersen@hpe.com,ou=People,o=hp.com' where user_id = 256
+2015-11-05 13:22:24,782 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=f.shad@hpe.com,ou=People,o=hp.com' where user_id = 259
+2015-11-05 13:22:24,989 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=marc.galloway@hpe.com,ou=People,o=hp.com' where user_id = 260
+2015-11-05 13:22:25,196 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=geff.garnhart@hpe.com,ou=People,o=hp.com' where user_id = 261
+2015-11-05 13:22:25,404 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=miguel.tsuboyama@hpe.com,ou=People,o=hp.com' where user_id = 262
+2015-11-05 13:22:25,611 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=klara.kaderabkova@hpe.com,ou=People,o=hp.com' where user_id = 263
+2015-11-05 13:22:25,819 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=itbot@hpe.com,ou=People,o=hp.com' where user_id = 264
+2015-11-05 13:22:26,026 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=katsuhiro.konishi@hpe.com,ou=People,o=hp.com' where user_id = 265
+2015-11-05 13:22:26,234 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=guili.he@hpe.com,ou=People,o=hp.com' where user_id = 266
+2015-11-05 13:22:26,441 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=keith.sharp@hpe.com,ou=People,o=hp.com' where user_id = 267
+2015-11-05 13:22:26,648 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=dmitry.silin@hpe.com,ou=People,o=hp.com' where user_id = 268
+2015-11-05 13:22:26,855 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=valerio.martini@hpe.com,ou=People,o=hp.com' where user_id = 269
+2015-11-05 13:22:27,070 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=michal.mlaticek@hpe.com,ou=People,o=hp.com' where user_id = 271
+2015-11-05 13:22:27,287 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=michael.andersin@hpe.com,ou=People,o=hp.com' where user_id = 272
+2015-11-05 13:22:27,497 INFO [com.hp.it.updateUser.dao.UserDao] - update identities set extern_uid = 'uid=patrick.deloulay@hpe.com,ou=People,o=hp.com' where user_id = 273
+2015-11-05 13:22:27,498 INFO [com.hp.it.util.Dbutil] - close the statement
+2015-11-05 13:22:27,498 INFO [com.hp.it.util.Dbutil] - close the connection
+2015-11-05 13:22:27,498 INFO [com.hp.it.updateUser.service.UserService] - update identities successful
+2015-11-05 13:22:27,498 INFO [com.hp.it.updateUser.service.UserService] - finished
